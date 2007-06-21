@@ -18,8 +18,7 @@ using the RandR 1.2 BACKLIGHT output property.
 %setup -q -n %{name}-%{version}
 
 %build
-%configure	--x-includes=%{_includedir}\
-		--x-libraries=%{_libdir}
+%configure
 
 %make
 

@@ -33,5 +33,5 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %{_bindir}/xbacklight
 %defattr(-,root,man)
-%{_mandir}/man1/xbacklight.1x.bz2
+%{_mandir}/man1/xbacklight.*
 

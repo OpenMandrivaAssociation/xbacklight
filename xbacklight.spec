@@ -5,7 +5,6 @@ Summary: Command-line utility to set the display backlight level
 Group: System/X11
 Source: http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
 License: MIT
-BuildRoot: %{_tmppath}/%{name}-root
 
 BuildRequires: libxrandr-devel >= 1.2
 

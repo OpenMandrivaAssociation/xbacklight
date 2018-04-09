@@ -1,5 +1,5 @@
 Name:		xbacklight
-Version:	1.2.1
+Version:	1.2.2
 Release:	1
 Summary:	Command-line utility to set the display backlight level
 Group:		System/X11

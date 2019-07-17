@@ -9,6 +9,7 @@ Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.
 BuildRequires:	pkgconfig(xrandr)
 BuildRequires:	pkgconfig(xcb-atom)
 BuildRequires:	pkgconfig(xcb-aux)
+BuildRequires:	pkgconfig(xorg-macros)
 
 %description
 xbacklight is a simple command-line utility to set the backlight level

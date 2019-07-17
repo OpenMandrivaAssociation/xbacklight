@@ -1,5 +1,5 @@
 Name:		xbacklight
-Version:	1.2.2
+Version:	1.2.3
 Release:	1
 Summary:	Command-line utility to set the display backlight level
 Group:		System/X11
@@ -16,14 +16,14 @@ using the RandR 1.2 BACKLIGHT output property.
 
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
-%configure2_5x
-%make
+%configure
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %{_bindir}/xbacklight

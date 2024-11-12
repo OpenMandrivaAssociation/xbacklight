@@ -1,10 +1,10 @@
 Name:		xbacklight
-Version:	1.2.3
+Version:	1.2.4
 Release:	1
 Summary:	Command-line utility to set the display backlight level
 Group:		System/X11
 License:	MIT
-Source:		http://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.bz2
+Source:		https://xorg.freedesktop.org/releases/individual/app/%{name}-%{version}.tar.xz
 
 BuildRequires:	pkgconfig(xrandr)
 BuildRequires:	pkgconfig(xcb-atom)
